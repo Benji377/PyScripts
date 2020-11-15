@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# OpenCode
+#### Welcome to OpenCode!
+This is a rather silly project without really any use or target. There is just one file called main.py and if you like to you can create a pull-request and add your own code to it. The code will then be reviewed and if accepted it will be added to the main.py file.
 
-You can use the [editor on GitHub](https://github.com/Benji377/OpenCode/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+##### There are a few rules to follow:
+1. No harmful code: Files with harmful code will be immediately denied
+2. No code spamming: If your pull-request doesnt get accepted, please don't spam the code, it doesn't help.
+3. Be respectful at all time
+4. Follo Github rules and guidelines
+5. For everything else I forgot to say, please use common sense
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##### Here is a tutorial to help you: [create pull-requests properly](https://medium.com/javascript-in-plain-english/how-to-contribute-to-a-github-repository-project-78f777623f18)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Benji377/OpenCode/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Have fun!
