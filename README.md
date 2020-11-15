@@ -7,7 +7,8 @@ This is a rather silly project without really any use or target. There is just o
 2. No code spamming: If your pull-request doesnt get accepted, please don't spam the code, it doesn't help.
 3. Be respectful at all time
 4. Follo Github rules and guidelines
-5. For everything else I forgot to say, please use common sense
+5. Python3 only!
+6. For everything else I forgot to say, please use common sense
 
 ##### Here is a tutorial to help you: [create pull-requests properly](https://medium.com/javascript-in-plain-english/how-to-contribute-to-a-github-repository-project-78f777623f18)
 
