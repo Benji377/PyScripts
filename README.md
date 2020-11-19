@@ -15,6 +15,16 @@ The code will then be reviewed and if accepted it will be added to the main.py f
 5. Python3 only!
 6. For everything else I forgot to say, please use common sense
 
-## Here is a tutorial to help you: [create pull-requests properly](https://medium.com/javascript-in-plain-english/how-to-contribute-to-a-github-repository-project-78f777623f18)
+### Here is a tutorial to help you: [create pull-requests properly](https://medium.com/javascript-in-plain-english/how-to-contribute-to-a-github-repository-project-78f777623f18)
+
+## Requirements
+
+The code is now requiring the following packages to be installed:
+
+```shell
+pyfiglet
+```
+
+---
 
 ### Have fun!

@@ -1,4 +1,10 @@
-print("OpenCode")
+from pyfiglet import Figlet
+
+def header():
+    """Show the name as ASCII art."""
+    f = Figlet(font='slant')
+    f = f.renderText("OpenCode")
+    print(f)
 
 # Python program to print ASCII Value of Character
 def ascii_value():
@@ -10,5 +16,5 @@ def ascii_value():
         print("Please input a single character")
         return ascii_value()
 
-
+header()
 ascii_value()
