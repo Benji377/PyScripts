@@ -1,6 +1,6 @@
-# OpenCode
+# PyScripts
 
-## Welcome to OpenCode
+## Welcome to PyScripts
 
 This is a general repository to upload some useful small Python scripts. 
 It is open to anyone, so you can easily upload your own if you think someone might find them useful.
