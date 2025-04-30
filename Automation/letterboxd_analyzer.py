@@ -24,7 +24,7 @@ from reportlab.lib.enums import TA_CENTER
 #      with graphs showing the user's watch time and films watched per year.
 #
 # Usage:
-#   python script.py --user <username> [--csv] [--pdf]
+#   python letterboxd_analyzer.py --user <username> [--csv] [--pdf]
 #     --user <username>  : The Letterboxd username of the user you want to analyze.
 #     --csv             : Export the results to a CSV file.
 #     --pdf             : Generate a PDF report with graphs.
