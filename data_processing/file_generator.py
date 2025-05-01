@@ -1,3 +1,22 @@
+"""
+Title: File Generator
+Description: Generator a given number of files with random content
+Author: Benji377
+Created: 01.07.2023
+Last Updated: 01.07.2023
+
+Usage:
+    Run the script with no parameters
+
+Dependencies:
+    None
+
+Notes:
+    - This script is standalone and does not require other files from the repo.
+    - Adjust any parameters or constants at the top of the script as needed.
+"""
+
+
 import os
 import random
 import string

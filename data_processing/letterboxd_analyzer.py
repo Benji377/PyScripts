@@ -1,3 +1,30 @@
+"""
+Title: Letterboxd Watch Time Analyzer
+Description: This script allows you to scrape a Letterboxd user's film history and calculate total watch time
+Author: Benji377
+Created: 30.04.2025
+Last Updated: 30.04.2025
+
+Usage:
+    python letterboxd_analyzer.py <username> [--csv] [--pdf]
+     <username>        : The Letterboxd username of the user you want to analyze.
+     --csv             : Export the results to a CSV file.
+     --pdf             : Generate a PDF report with graphs.
+
+Dependencies:
+    - requests
+    - matplotlib
+    - pandas
+    - beautifulsoup4
+    - reportlab
+    (Install with: pip install requests matplotlib pandas beautifulsoup4 reportlab)
+
+Notes:
+    - This script is standalone and does not require other files from the repo.
+    - Adjust any parameters or constants at the top of the script as needed.
+"""
+
+
 import requests
 import argparse
 import matplotlib.pyplot as plt
@@ -12,8 +39,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER
 
-# Letterboxd Watch Time Analyzer
-#
+
 # This script allows you to scrape a Letterboxd user's film history and calculate
 # total watch time, generate CSV reports, and create PDF reports with graphs.
 # The script works by:
@@ -22,12 +48,6 @@ from reportlab.lib.enums import TA_CENTER
 #   3. Calculating the total time watched and generating summary reports.
 #   4. Optionally exporting the data to a CSV file or generating a PDF report
 #      with graphs showing the user's watch time and films watched per year.
-#
-# Usage:
-#   python letterboxd_analyzer.py --user <username> [--csv] [--pdf]
-#     --user <username>  : The Letterboxd username of the user you want to analyze.
-#     --csv             : Export the results to a CSV file.
-#     --pdf             : Generate a PDF report with graphs.
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 

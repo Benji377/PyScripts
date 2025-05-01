@@ -1,2 +1,22 @@
-/venv
-/.idea
+# Virtual environments
+venv/
+.env/
+
+# IDE/editor folders
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs or temp
+*.log
+
+# PyCharm and JetBrains configs (if not sharing)
+*.iml

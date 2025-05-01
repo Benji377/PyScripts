@@ -1,3 +1,25 @@
+"""
+Title: Lumberjack Bot
+Description: A small bot to play the lumberjack game on Telegram
+Author: Benji377
+Created: 01.11.2023
+Last Updated: 01.11.2023
+
+Usage:
+    Change the screen coordinates and start the script with no parameters
+
+Dependencies:
+    - numpy
+    - keyboard
+    - mss
+    (Install with: pip install numpy keyboard mss)
+
+Notes:
+    - This script is standalone and does not require other files from the repo.
+    - Adjust any parameters or constants at the top of the script as needed.
+"""
+
+
 import numpy as np
 import time
 import keyboard

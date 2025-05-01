@@ -1,3 +1,25 @@
+"""
+Title: Get Screen
+Description: Creates a screenshot of a specified area
+Author: Benji377
+Created: 01.11.2023
+Last Updated: 01.11.2023
+
+Usage:
+    No parameters
+
+Dependencies:
+    - cv2
+    - mss
+    - numpy
+    (Install with: pip install cv2 mss numpy)
+
+Notes:
+    - This script is standalone and does not require other files from the repo.
+    - Adjust any parameters or constants at the top of the script as needed.
+"""
+
+
 import cv2
 import mss
 import numpy as np
